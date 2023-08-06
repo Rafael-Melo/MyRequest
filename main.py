@@ -2,7 +2,7 @@ import requests
 
 link = 'https://myapi--rafaelvilas2.repl.co/pegarvendas'
 
-#Comando GET
+#GET de MyAPI
 requisicao = requests.get(link)
 print(requisicao)
 print(requisicao.json())
